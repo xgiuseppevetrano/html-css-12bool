@@ -133,11 +133,11 @@ header .actions i {
     width: 100%;
 }
 
-.content .top img {
+.content .top {
     position: relative;
 }
 
-.top:hover .top:after {
+.top:hover::after {
     content: "12:13";
     position: absolute;
     bottom: 5px;
